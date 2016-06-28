@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;	
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	background-color: #fff;
+	border-bottom: 2px solid #ececec;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: normal;
+}
+
+#site-name {
+  background-color: #4aaaa5;
+  padding: 5px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  letter-spacing: 1px;
+  width: 240px;
+  color: #fff;
+  text-align: center;
+  margin: 0 0 0 80px;
+  display: inline-block;
+}
+
+nav {
+	display: inline;
+	margin: 0 0 0 200px;
+}
+
+nav a {
+	margin-left: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #777;
+}
+
+.light {
+	color: #ececec;
+}
+
+#container {
+	background-image: url(../images/debut-light.png);
+}
+
+#about-me img {
+	width: 200px;
+	height: auto;
+}
